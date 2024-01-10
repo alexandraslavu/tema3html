@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Alexandra Diana Slavu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Pensiune, Cazare">
+    <meta name="description" content="Site-ul cuprinde toate informațiile importante despre Pensiunea Carina">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>Pensiunea Carina</title>
+
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+
+        .nav-bg-color {
+            background-color: moccasin !important;
+        }
+
+        .custom-card {
+            background-color: moccasin;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+
+        .custom-card-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        .carousel-inner {
+            display: flex;
+            align-items: center;
+        }
+
+        .carousel-item img {
+            object-fit: contain;
+            height: 100%;
+            width: 100%;
+            margin: auto;
+        }
+
+        .icon {
+            height: 1.5rem;
+            width: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .text-overlay h2 {
+            color: #fff; /* Text color */
+        }
+    </style>
+</head>
+
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg-color">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo me-3" src="images/logo.png" alt="logo">
+            Pensiunea Carina</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Acasă</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#rooms">Camere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#photo">Galerie foto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#prices">Prețuri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CAROUSEL -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner w-100">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/carousel-1.jpg" alt="First slide: Pensiune înconjurată de flori">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/carousel-2.jpg" alt="Second slide: O camera a pensiunii cu un pat cu așternut alb și maro">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/carousel-3.jpg" alt="Third slide: Piscina exterioară a pensiunii și munți pe fundal ">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- SECTIUNE 1 -->
+<div class="m-5">
+    <div id="home">
+        <h2>Acasă</h2>
+        <p>Pensiunea Carina este situată în poalele <a
+                href="https://ro.wikipedia.org/wiki/Mun%C8%9Bii_Apuseni">Munților Apuseni.</a>
+            Zona ofera un climat peisagistic deosebit, existand condițiile practicării unui turism de înaltă
+            calitate.Fiecare cameră are baie proprie, televizor cu ecran plat, wi-fi, birou, frigider, fierbător de
+            apa, cafea si ceai. Toți oaspeții beneficenză de parcare gratuită, parcarea fiind pazită și
+            supravegheată video.
+
+            Pe lângă camerele pentru oaspeți, pensiunea este dotată cu două piscine exterioare, ambele având o
+            priveliște minunată spre munți. De asemenea, pensiunea dispune de un bar la intrarea în restaurant-
+            locul în
+            care oaspeții vor lua mesele pe parcursul șederii in această locație.
+            Această locație este ideală pentru un concediu reușit, idiferent de anotimp, deoarece împrejurările
+            pensiunii oferă un peisaj deosebit în orice moment al anului.</p>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="card custom-card" style="width: 15rem;">
+                    <div class="card-header custom-card-header">
+                        <h5 class="card-title mb-0">Avantaje</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="custom-list">
+                            <li>WIFI gratuit</li>
+                            <li>Loc de parcare</li>
+                            <li>Televizor</li>
+                            <li>Piscină</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTIUNE 2 -->
+    <div id="rooms">
+        <h2>Camere</h2>
+        <p>
+            Această pensiune dispune de o capacitate de 15 camere împărțite
+            astfel:10 camere standard de câte 2 persoane, cu un pat matrimonial în fiecare camera și 5 camere de
+            lux, tot de
+            câte 2 persoane.
+            Camerele de lux sunt niște camere premium, mult mai spațioase decât cele standard. Capacitatea camerelor
+            este de
+            2 persoane, indiferent de tipul de cameră pe care îl alegeți. Camerele au baie proprie, sunt dotate cu
+            televizor si conexiune wireless gratuită.
+        </p>
+    </div>
+
+    <!-- SECTIUNE 3 -->
+    <div id="photo">
+        <h2>Galerie foto</h2>
+        <div id="carouselPhotoGalleryIndicators" class="carousel slide pb-3">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselPhotoGalleryIndicators" data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPhotoGalleryIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselPhotoGalleryIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mw-100">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/galerie-1.jpg" alt="First slide:Piscină exterioară">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/galerie-2.jpg" alt="Second slide: Sala de mese">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/galerie-3.jpg" alt="Third slide: O tavă cu mic dejun în pat">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotoGalleryIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotoGalleryIndicators"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- SECTIUNE 4 -->
+    <div id="prices">
+        <h2>Prețuri</h2>
+        <h3>Prețuri camere standard</h3>
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/camerastandard1.jpg" class="card-img-top" alt="Un pat într-o cameră cu grinzi rustice din lemn">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-success">Disponibil</span></h5>
+                        <h5 class="card-title">Cameră standard cu balcon</h5>
+                        <p class="card-text">Camera standard cu balcon este o cameră simplă dar atrăgătoare și primitoare. Aceasta dispune de un balcon spațios cu vedere spre piscina pensiunii. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">120 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/camerastandard3.jpg" class="card-img-top" alt="Două paturi într-o cameră cu pereți albaștri, podea din lemn și un dulap din lemn.">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-danger">Indisponibil</span></h5>
+                        <h5 class="card-title">Cameră standard fără balcon</h5>
+                        <p class="card-text">Camera standard este o cameră simplă dar atrăgătoare.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">100 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/camerastandard2.jpg" class="card-img-top" alt="Un pat într-o cameră cu perete de lemn și un velux">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-success">Disponibil</span></h5>
+                        <h5 class="card-title">Cameră standard cu balcon și mic dejun </h5>
+                        <p class="card-text">Camera standard cu balcon și mic dejun include în prețul acesteia masa de dimineață.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">140 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/camerastandard4.jpg" class="card-img-top" alt="Un dormitor confortabil cu un pat din lemn și două lămpi, iar în partea stângă un dulap maro din lemn">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-danger">Indisponibil</span></h5>
+                        <h5 class="card-title">Cameră standard fără balcon, cu mic dejun</h5>
+                        <p class="card-text">Camera standard fără balcon, cu mic dejun include în prețul acesteia masa de dimineață.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">120 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h3>Prețuri camere premium</h3>
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/cameradeluxcubalcon1.jpg" class="card-img-top" alt="Un dormitor confortabil, cu lambriuri calde din lemn și un pat confortabil.">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-danger">Indisponibil</span></h5>
+                        <h5 class="card-title">Cameră premium cu balcon</h5>
+                        <p class="card-text">Camera premium cu balcon este o cameră mai mare și spațioasă decât cele standard și dispune de un balcon cu priveliște spre munți.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">150 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/camera-lux-2.jpg" class="card-img-top" alt="Un dormitor spațios cu un pat și un tavan alb din lemn.">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-success">Disponibil</span></h5>
+                        <h5 class="card-title">Cameră premium fără balcon</h5>
+                        <p class="card-text">Camera premium fără balcon este o cameră mare, elegantă și spațioasă, dar fără balcon.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">130 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/cameradeluxcubalcon2.jpg" class="card-img-top" alt="O cameră de zi confortabilă, cu un șemineu și două canapele mari, cu o masă în mijloc">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-success">Disponibil</span></h5>
+                        <h5 class="card-title">Cameră premium cu balcon și mic dejun</h5>
+                        <p class="card-text">Camera premium cu balcon și mic dejun include în prețul acesteia masa de dimineață. </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">170 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 p-3">
+                <div class="card h-100 d-flex flex-column">
+                    <img src="images/camera-lux-1.jpg" class="card-img-top" alt="Un dormitor cu candelabru, un pat matrimonial și podele elegante din lemn">
+                    <div class="card-body flex-fill">
+                        <h5><span class="badge text-bg-success">Disponibil</span></h5>
+                        <h5 class="card-title">Cameră premium fără balcon, cu mic dejun</h5>
+                        <p class="card-text">Camera premium fără balcon, cu mic dejun include în prețul acesteia masa de dimineață.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-bold">150 lei/noapte</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fw-bold">
+            <p>În weekend tarifele tuturor tipurilor de camere va crește cu 5% !</p>
+        </div>
+    </div>
+
+    <!-- SECTIUNE 5 -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="logo me-2" src="images/logo.png" style="height: 2.0rem;" alt="logo">
+            <span class="text-muted">© 2024 Pensiunea Carina SRL</span>
+        </div>
+        <div class="d-flex justify-content-end">
+            <!--            aici modifici link-urile-->
+            <a class="text-dark ms-3" href="#"><i class="bi bi-facebook icon"></i></a>
+            <a class="text-dark ms-3" href="#"><i class="bi bi-instagram icon"></i></a>
+            <a class="text-dark ms-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon mt-2"
+                     viewBox="0 0 512 512">
+                    <path d="M223.7 141.1 167 284.2 111 141.1H14.9L120.8 390.2 82.2 480h94.2L317.3 141.1zm105.4 135.8a58.2 58.2 0 1 0 58.2 58.2A58.2 58.2 0 0 0 329.1 276.9zM394.7 32l-93 223.5H406.4L499.1 32z"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="container" id="contact">
+            <div class="row text-center mt-2">
+                <div class="col">
+                    <h4>Contact</h4>
+                    <p class="m-0 p-0">Număr de telefon: 0722 122 233</p>
+                    <p class="m-0 p-0">Adresă de email: pensiunea_carina@yahoo.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
